@@ -1,0 +1,31 @@
+//Global styling----------------------------
+* {
+  box-sizing: border-box;
+}
+label {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.myForm {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #ddd;
+  input,
+  #myForm textarea {
+    width: 100%;
+    padding: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

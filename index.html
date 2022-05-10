@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="myForm">
+      <form id="myForm" action="">
+        <h1>Send Message</h1>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name (required)" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Your email (required)" />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message... "
+          ></textarea>
+        </div>
+        <input class="subBtn" type="submit" value="send message" />
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
